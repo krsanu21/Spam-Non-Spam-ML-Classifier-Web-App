@@ -40,7 +40,7 @@ def clean_message(message):
 st.title("Email Classifier")
 
 
-user_input = st.selectbox("Message", ('-',"type your own message","Oh k...i'm watching here:)", 'Is that seriously how you spell his name?', 'Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed £1000 cash or £5000 prize!','Here is your discount code RP176781. To stop further messages reply stop. www.regalportfolio.co.uk. Customer Services 08717205546'))
+user_input = st.selectbox("Message", ('-',"Type your own message!","Oh k...i'm watching here:)", 'Is that seriously how you spell his name?', 'Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed £1000 cash or £5000 prize!','Here is your discount code RP176781. To stop further messages reply stop. www.regalportfolio.co.uk. Customer Services 08717205546'))
 
 if user_input == "type your own message":
     user_input = st.text_input("Enter your message")
