@@ -3,3 +3,5 @@ It is a web application which takes sentences and the ML model classifies it as 
 
 Web App Link: https://spamchecker.herokuapp.com
 
+<img src='spamchecker.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
